@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "uarealdumbdumbconverter",
+  "version": "${version}",
+  "name": "UarealDumbDumbConverter",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/uarealdumbdumbconverter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.yajatkaul.uarealdumbdumbconverter.client.UarealDumbDumbConverterClient"
+    ],
+    "main": [
+      "com.github.yajatkaul.uarealdumbdumbconverter.UarealDumbDumbConverter"
+    ]
+  },
+  "mixins": [
+    "uarealdumbdumbconverter.mixins.json",
+    {
+      "config": "uarealdumbdumbconverter.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
