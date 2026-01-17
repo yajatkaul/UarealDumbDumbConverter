@@ -151,21 +151,17 @@ public class UarealDumbDumbConverter implements ModInitializer {
         convert("meteorite", "meteorite");
         convert("rotom_catalog", "rotom_catalog");
 
-        //TODO take permission
-        convert("rotom_fan", "rotom_catalog");
-        convert("rotom_microwave_oven", "rotom_catalog");
-        convert("rotom_lawn_mower", "rotom_catalog");
-        convert("rotom_refrigerator", "rotom_catalog");
-        convert("rotom_washing_machine", "rotom_catalog");
-        convert("rotom_light_bulb", "rotom_catalog");
+        convertChad("rotom_fan", "rotom_fan");
+        convertChad("rotom_microwave_oven", "rotom_oven");
+        convertChad("rotom_lawn_mower", "rotom_mower");
+        convertChad("rotom_refrigerator", "rotom_refrigerator");
+        convertChad("rotom_washing_machine", "rotom_washing_machine");
+        convertChad("rotom_light_bulb", "rotom_fan");
 
         convert("zygarde_cube", "zygarde_cube");
 
         convert("wishing_star", "dynamax_band");
         convert("sparkling_stone", "z_ring");
-
-        //TODO
-        convert("mega_shard", "zygarde_cube");
 
         convert("venusaurite", "venusaurite");
         convert("charizardite-x", "charizarditex");
