@@ -49,7 +49,6 @@ public class UarealDumbDumbConverter implements ModInitializer {
         convert("rusted_shield", "rustedshield");
         convert("blue_orb", "blueorb");
         convert("red_orb", "redorb");
-        convert("rusted_shield", "rustedshield");
 
         convert("shock_drive", "shockdrive");
         convert("burn_drive", "burndrive");
