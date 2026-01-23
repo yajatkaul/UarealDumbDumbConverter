@@ -18,12 +18,13 @@ public class UarealDumbDumbConverter implements ModInitializer {
         convert("mega_bracelet", "mega_bracelet");
         convert("key_stone", "mega_bracelet");
         convert("tera_orb", "tera_orb");
-        convert("z_ring", "z_ring");
-        convert("z_power_ring", "z_ring");
+        convert("z_ring", "z-ring");
+        convert("z_power_ring", "z-ring");
 
         convert("dynamax_candy", "dynamax_candy");
-        convert("max_mushrooms", "max_mushrooms");
+        convert("max_mushroom", "max_mushrooms");
         convert("max_soup", "max_soup");
+        convert("max_honey", "max_soup");
 
         convert("normal_tera_shard", "normal_tera_shard");
         convert("fire_tera_shard", "fire_tera_shard");
@@ -160,7 +161,7 @@ public class UarealDumbDumbConverter implements ModInitializer {
         convert("zygarde_cube", "zygarde_cube");
 
         convert("wishing_star", "dynamax_band");
-        convert("sparkling_stone", "z_ring");
+        convert("sparkling_stone", "z-ring");
 
         convert("venusaurite", "venusaurite");
         convert("charizardite-x", "charizarditex");
@@ -172,7 +173,7 @@ public class UarealDumbDumbConverter implements ModInitializer {
         convert("pinsirite", "pinsirite");
         convert("gyaradosite", "gyaradosite");
         convert("aerodactylite", "aerodactylite");
-        convert("mewtwonite-x", "mewtwonitext");
+        convert("mewtwonite-x", "mewtwonitex");
         convert("mewtwonite-y", "mewtwonitey");
         convert("ampharosite", "ampharosite");
         convert("scizorite", "scizorite");
@@ -263,6 +264,8 @@ public class UarealDumbDumbConverter implements ModInitializer {
         convertChad("adamant_orb", "adamant_orb");
         convertChad("griseous_orb", "griseous_orb");
         convertChad("lustrous_orb", "lustrous_orb");
+
+        convertChad("legend_plate", "legend_plate");
     }
 
     private static void convert(String oldId, String newId) {
